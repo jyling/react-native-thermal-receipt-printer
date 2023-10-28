@@ -109,8 +109,7 @@ public class USBPrinterAdapter implements PrinterAdapter {
             Toast
               .makeText(
                 context,
-                "User refuses to obtain USB device permissions" +
-                usbDevice.getDeviceName(),
+                "User refuses to obtain USB device permissions",
                 Toast.LENGTH_LONG
               )
               .show();
