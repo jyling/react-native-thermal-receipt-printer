@@ -157,7 +157,7 @@ public class USBPrinterAdapter implements PrinterAdapter {
           mContext,
           0,
           new Intent(ACTION_USB_PERMISSION),
-          PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE
+          PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
         );
     } else {
       this.mPermissionIndent =
